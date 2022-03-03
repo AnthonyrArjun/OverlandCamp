@@ -1,16 +1,20 @@
 {
   "name": "overlandcamp",
   "version": "1.0.0",
-  "description" : "Full stack project",
+  "description": "Full stack project",
   "main": "app.js",
   "scripts": {
     "build": "node app.js"
   },
-
   "dependencies": {
+    "axios": "^0.26.0",
     "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.2.0"
+    "joi": "^17.6.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.0",
+    "node-fetch": "^3.2.0",
+    "unsplash-js": "^7.0.15"
   }
 }
-
